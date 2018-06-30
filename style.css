@@ -1,0 +1,39 @@
+/*
+Theme Name:     Itapemapa
+Theme URI:      http: //www.itapemapa.com.br/
+Description:    Itapemapa - Guia de comércio e serviços de Itapetininga - (filho do TwentyEleven)
+Author:         Francisco Matelli
+Author URI:     http://www.franciscomatelli.com
+Template:       twentyten
+Version:        1.0
+*/
+
+
+@import url('../twentyten/style.css');
+
+#header {padding:0;}
+.parceiroheader {margin:0 8px;}
+.parceiros-div {width:240px;text-align:center;}
+
+.cat-item {width:120%;height:40px;background:#444;}
+.menu-header ul li a {display:inline !important;}
+
+#wrapper {background:transparent;}
+#branding img {border:0;}
+#site-generator {visibility:hidden;}
+.fundo-rosa {background:url("http://itapemapa.com.br/wp-content/uploads/2012/03/fundo-assine-9251.jpg") #f36363;text-align:center;color:#f36363;width:925px; height:50px;line-height:50px;}
+#passo-a-passo {background:#EEE;}
+#site-title {width:300px;}
+#site-description {margin: 24px 0 18px 0;width:150px;}
+/*Remover bullet do gd star rating e front page*/
+ul {list-style-type:none;}
+.widget-area ul ul {list-style-type:none;margin-left:0;}
+.widget_gdstarrating_star ul li div {position:relative;top:10px;visibility:hidden}
+.widget_gdstarrating_star ul li div div {visibility:visible;}
+.widget_gdstarrating_star ul li a {float:left;}
+.widget_gdstarrating_star ul li {margin-left:-1.3em;}
+
+/*2013*/
+.bgmp_list-link {visibility:hidden;}
+.ratingtext {visibility:hidden;}
+.entry-utility {visibility:hidden;}
